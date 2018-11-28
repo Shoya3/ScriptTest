@@ -51,7 +51,7 @@ public class Test : MonoBehaviour {
           Debug.Log(array[i]);
         }
         int j = 0;
-        for(j = 4; j < 0; j--)
+        for(j = 4; j >= 0; j--)
         {
             Debug.Log(array[j]);
         }
